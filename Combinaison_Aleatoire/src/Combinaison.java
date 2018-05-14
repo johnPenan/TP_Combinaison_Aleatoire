@@ -13,10 +13,14 @@ public class Combinaison {
 			essai = 0;
 			do {
 				essai++;
-				System.out.println(nbreSecret);
-				System.out.println("Veillez trouver le nombre secret entre 1 et 100 :");
-				maCombinaison = sc.nextInt();
-				sc.nextLine();
+				do {
+					System.out.println(nbreSecret);
+					System.out.println("Veillez trouver le nombre secret:");
+					maCombinaison = sc.nextInt();
+					sc.nextLine();
+					if (maCombinaison > 100)
+						System.out.println("Le nombre doit être compris entre 1 et 100");
+				} while (maCombinaison > 100);
 				if (maCombinaison < nbreSecret)
 					System.out.println("Le nombre " + maCombinaison + " est inférieur au nombre secret !");
 				else if (maCombinaison > nbreSecret)
