@@ -1,2 +1,2 @@
 # TP_Combinaison_Aleatoire
-Cette application permet à l'utilisateur de trouver le nombre secret générer par l'ordinateur.
+Cette application permet à l'utilisateur de trouver le nombre secret généré par l'ordinateur.
